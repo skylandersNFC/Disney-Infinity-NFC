@@ -111,7 +111,7 @@
 | INF-1000225 | Vision |
 | INF-1000226 | Ultron |
 | INF-1000227 | Ant-Man |
-| INF-1000229 | Captain America | The First Avenger |
+| INF-1000229 | Captain America (The First Avenger)
 | INF-1000230 | Finn |
 | INF-1000231 | Kylo Ren |
 | INF-1000232 | Poe Dameron |
