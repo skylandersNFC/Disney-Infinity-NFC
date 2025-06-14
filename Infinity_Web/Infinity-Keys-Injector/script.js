@@ -75,7 +75,7 @@ document.getElementById('fileInput').addEventListener('change', function(event) 
 
             const link = document.getElementById('download1k');
             link.href = url;
-            link.download = file.name.replace(/(\.\w+)?$/, "_converted.dmp");
+            link.download = file.name.replace(/(\.\w+)?$/, ".bin");
             link.style.display = "inline-block";
             link.querySelector('label').innerText = "Download Converted File";
         });
