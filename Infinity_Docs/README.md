@@ -6,6 +6,8 @@
 
 **[Clone Disney Infinity Figures](Clone_Disney_Infinity_Figures)** (signs)
 
+**[Definitive Guide to Disney Infinity NFC cards](Definitive_Guide_to_Disney_Infinity_NFC_cards)** (Rafa71791)
+
 **[Disney Infinity on Allmiibo](Disney_Infinity_on_Allmiibo)** (SkylandersNFC)
 
 **[Infinity Base Breakdowns Images](Infinity_Base_Breakdowns_Images)** (Unknown)
@@ -13,8 +15,6 @@
 **[Infinity IDs - Extra Codes](Infinity_Extra_Codes)** (Cassinni4)
 
 **[Infinity IDs - Model Numbers](Infinity_Model_Numbers)** (Official)
-
-**[Infinity NFC Guide](Infinity_NFC_Guide)** (Rafa71791)
 
 **[New interoperability for Disney Infinity NFC toys](New_interoperability_for_Disney_Infinity_NFC_toys)** (Vitorio Miliano)
 
