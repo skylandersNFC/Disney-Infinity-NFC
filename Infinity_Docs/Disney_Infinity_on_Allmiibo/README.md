@@ -64,7 +64,6 @@ There are **two simple ways** to update the firmware on your **Allmiibo** device
 6. Go to "**Firmware**" menu on the bottom right.
 7. You can get the latest custom firmware from here: **[Allmiibo Disney Firmware](firmware)**.
 - Download the **appropriate** firmware (**LCD** or **OLED**) based on your device.
-- If you're unsure which version you have, refer to "**[How to Determine Your Model (LCD or OLED)](https://skylandersnfc.github.io/Docs/Skylanders_on_Allmiibo/#how-to-determine-your-model-lcd-or-oled-)**".
 8. On "**(1) File**" select the correct firmware file which you have just downloaded.
 9. On "**(2) Device**" make sure your device is **connected** and **selected**.
 10. On "**(3) Progress**" click "**Start**" to flash the new firmware and **don't do anything stupid**.
