@@ -30,7 +30,6 @@ There are **two simple ways** to update the firmware on your **Allmiibo** device
 
 1. For Disney, to make them compatible we use a **slightly modified firmware**.
 - You can get the latest custom version here: **[Allmiibo Disney Firmware](firmware)**.
-   - This custom version of the firmware was provided by anonymous user. Thank you kindly for your work.
 2. Download the **appropriate** firmware (**LCD** or **OLED**) based on your device.
 3. **Extract** the downloaded ZIP file, and inside **you’ll find another archive** named "**pixjs_ota_vX.zip**". This is the file you'll need.
 4. Ensure that **Bluetooth** is **enabled** on your computer/laptop.
