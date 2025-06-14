@@ -8,4 +8,6 @@
 
 **[Infinity IDs - Model Numbers](Infinity_Model_Numbers)** (Official)
 
+**[Disney Infinity on Allmiibo](Disney_Infinity_on_Allmiibo)** (SkylandersNFC)
+
 ---
