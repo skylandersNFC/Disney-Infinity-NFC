@@ -13,3 +13,5 @@
 **Software:** [Infinity Tools](https://skylandersnfc.github.io/Disney-Infinity-NFC/Infinity_Tools/)
 
 **NFC Dumps:** [Infinity Ultimate NFC Pack](https://skylandersnfc.github.io/Disney-Infinity-NFC/Infinity_Ultimate_NFC_Pack/)
+
+**NFC Guide:** [Infinity Guide](https://skylandersnfc.github.io/Disney-Infinity-NFC/Infinity_Docs/Infinity_NFC_Guide/)
