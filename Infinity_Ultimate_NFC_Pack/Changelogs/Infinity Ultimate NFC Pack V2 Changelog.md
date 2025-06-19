@@ -1,0 +1,328 @@
+# Changelog V2
+
+### Changes
+
+Renamed and reorganized 322 Disney Infinity dump files:
+
+- `Infinity 1.0/1) Characters/Cars - Francesco Bernoulli.bin` → `1.0/Characters/Cars/Francesco Bernoulli.bin`
+- `Infinity 1.0/1) Characters/Cars - Holley Shiftwell.bin` → `1.0/Characters/Cars/Holley Shiftwell.bin`
+- `Infinity 1.0/1) Characters/Cars - Lightning McQueen (Crystal).bin` → `1.0/Characters/Cars/Crystal Lighting McQueen.bin`
+- `Infinity 1.0/1) Characters/Cars - Lightning McQueen.bin` → `1.0/Characters/Cars/Lightning McQueen.bin`
+- `Infinity 1.0/1) Characters/Cars - Mater.bin` → `1.0/Characters/Cars/Mater.bin`
+- `Infinity 1.0/1) Characters/Fantasia - Sorcerer's Apprentice Mickey (Crystal).bin` → `1.0/Characters/Toy Box - Disney/Crystal Sorcerer's Apprentice Mickey.bin`
+- `Infinity 1.0/1) Characters/Fantasia - Sorcerer's Apprentice Mickey.bin` → `1.0/Characters/Toy Box - Disney/Sorcerer's Apprentice Mickey.bin`
+- `Infinity 1.0/1) Characters/Frozen - Anna.bin` → `1.0/Characters/Toy Box - Disney/Anna.bin`
+- `Infinity 1.0/1) Characters/Frozen - Elsa.bin` → `1.0/Characters/Toy Box - Disney/Elsa.bin`
+- `Infinity 1.0/1) Characters/Monsters University - Mike Wazowski.bin` → `1.0/Characters/Monsters University/Mike.bin`
+- `Infinity 1.0/1) Characters/Monsters University - Randy.bin` → `1.0/Characters/Monsters University/Randy.bin`
+- `Infinity 1.0/1) Characters/Monsters University - Sulley (Crystal).bin` → `1.0/Characters/Monsters University/Crystal Sulley.bin`
+- `Infinity 1.0/1) Characters/Monsters University - Sulley.bin` → `1.0/Characters/Monsters University/Sulley.bin`
+- `Infinity 1.0/1) Characters/Phineas and Ferb - Agent P (Crystal).bin` → `1.0/Characters/Toy Box - Disney/Crystal Agent P.bin`
+- `Infinity 1.0/1) Characters/Phineas and Ferb - Agent P.bin` → `1.0/Characters/Toy Box - Disney/Agent P.bin`
+- `Infinity 1.0/1) Characters/Phineas and Ferb - Phineas Flynn.bin` → `1.0/Characters/Toy Box - Disney/Phineas.bin`
+- `Infinity 1.0/1) Characters/Pirates of the Caribbean - Barbossa.bin` → `1.0/Characters/Pirates/Hector Barbossa.bin`
+- `Infinity 1.0/1) Characters/Pirates of the Caribbean - Davy Jones.bin` → `1.0/Characters/Pirates/Davy Jones.bin`
+- `Infinity 1.0/1) Characters/Pirates of the Caribbean - Jack Sparrow (Crystal).bin` → `1.0/Characters/Pirates/Crystal Jack Sparrow.bin`
+- `Infinity 1.0/1) Characters/Pirates of the Caribbean - Jack Sparrow.bin` → `1.0/Characters/Pirates/Jack Sparrow.bin`
+- `Infinity 1.0/1) Characters/Tangled - Rapunzel.bin` → `1.0/Characters/Toy Box - Disney/Rapunzel.bin`
+- `Infinity 1.0/1) Characters/The Incredibles - Dash.bin` → `1.0/Characters/Incredibles/Dash.bin`
+- `Infinity 1.0/1) Characters/The Incredibles - Mr. Incredible (Crystal).bin` → `1.0/Characters/Incredibles/Crystal Mr. Incredible.bin`
+- `Infinity 1.0/1) Characters/The Incredibles - Mr. Incredible.bin` → `1.0/Characters/Incredibles/Mr. Incredible.bin`
+- `Infinity 1.0/1) Characters/The Incredibles - Mrs. Incredible.bin` → `1.0/Characters/Incredibles/Mrs. Incredible.bin`
+- `Infinity 1.0/1) Characters/The Incredibles - Syndrome.bin` → `1.0/Characters/Incredibles/Syndrome.bin`
+- `Infinity 1.0/1) Characters/The Incredibles - Violet.bin` → `1.0/Characters/Incredibles/Violet.bin`
+- `Infinity 1.0/1) Characters/The Lone Ranger - The Lone Ranger (Crystal).bin` → `1.0/Characters/Lone Ranger/Crystal Lone Ranger.bin`
+- `Infinity 1.0/1) Characters/The Lone Ranger - The Lone Ranger.bin` → `1.0/Characters/Lone Ranger/Lone Ranger.bin`
+- `Infinity 1.0/1) Characters/The Lone Ranger - Tonto.bin` → `1.0/Characters/Lone Ranger/Tonto.bin`
+- `Infinity 1.0/1) Characters/The Nightmare Before Christmas - Jack Skellington.bin` → `1.0/Characters/Toy Box - Disney/Jack Skellington.bin`
+- `Infinity 1.0/1) Characters/Toy Story - Buzz Lightyear (Crystal).bin` → `1.0/Characters/Toy Story/Crystal Buzz Lightyear.bin`
+- `Infinity 1.0/1) Characters/Toy Story - Buzz Lightyear (Glowing).bin` → `1.0/Characters/Toy Story/Glowing Buzz Lightyear.bin`
+- `Infinity 1.0/1) Characters/Toy Story - Buzz Lightyear.bin` → `1.0/Characters/Toy Story/Buzz Lightyear.bin`
+- `Infinity 1.0/1) Characters/Toy Story - Jessie.bin` → `1.0/Characters/Toy Story/Jessie.bin`
+- `Infinity 1.0/1) Characters/Toy Story - Woody.bin` → `1.0/Characters/Toy Story/Woody.bin`
+- `Infinity 1.0/1) Characters/Wreck-It Ralph - Vanellope von Schweetz.bin` → `1.0/Characters/Toy Box - Disney/Vanellope.bin`
+- `Infinity 1.0/1) Characters/Wreck-It Ralph - Wreck-It Ralph.bin` → `1.0/Characters/Toy Box - Disney/Wreck-It Ralph.bin`
+- `Infinity 1.0/2) Play Sets/Cars Play Set.bin` → `1.0/Play Sets/Cars.bin`
+- `Infinity 1.0/2) Play Sets/The Incredibles - Pirates of the Caribbean - Monsters University Play Set (included in starter pack).bin` → `1.0/Play Sets/Incredibles Monsters University Pirates.bin`
+- `Infinity 1.0/2) Play Sets/The Lone Ranger Play Set.bin` → `1.0/Play Sets/Lone Ranger Play Set.bin`
+- `Infinity 1.0/2) Play Sets/Toy Story in Space Play Set.bin` → `1.0/Play Sets/Toy Story in Space.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Aladdin - Abu the Elephant - Toy (Mount).bin` → `1.0/Power Discs/Mount/Abu the Elephant.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Alice in Wonderland - Alice's Wonderland - Customization (Terrain).bin` → `1.0/Power Discs/Terrain/Alice's Wonderland.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Alice in Wonderland - Tulgey Wood - Customization (Skydome).bin` → `1.0/Power Discs/Skydome/Tulgey Wood.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Bolt - Bolt's Super Strength - Ability.bin` → `1.0/Power Discs/Ability/Bolt's Super Strength.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Cars - C.H.R.O.M.E. Armor Shield - Ability.bin` → `1.0/Power Discs/Ability/C.H.R.O.M.E.'S Armor Shield.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Cinderella - Cinderella's Coach - Toy (Vehicle).bin` → `1.0/Power Discs/Vehicle/Cinderella's Coach.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Dumbo, Disney Parks - Dumbo the Flying Elephant - Toy (Aircraft).bin` → `1.0/Power Discs/Aircraft/Dumbo Flying Elephant.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Finding Nemo - Marlin's Reef - Customization (Terrain).bin` → `1.0/Power Discs/Terrain/Marlin's Reef.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Finding Nemo - Nemo's Seascape - Customization (Skydome).bin` → `1.0/Power Discs/Skydome/Nemo's Seascape.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Lilo & Stitch - Stitch's Blaster - Toy (Weapon).bin` → `1.0/Power Discs/Toy/Stitch's Blaster.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Mickey Mouse Universe - Mickey's Car - Toy (Vehicle).bin` → `1.0/Power Discs/Vehicle/Mickey's Car.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Mulan - Khan - Toy (Mount).bin` → `1.0/Power Discs/Mount/Kahn.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Pirates of the Caribbean - Pieces of Eight - Ability.bin` → `1.0/Power Discs/Ability/Pieces of Eight.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Tangled - Rapunzel's Birthday Sky - Customization (Skydome).bin` → `1.0/Power Discs/Skydome/Rapunzel's Birthday Sky.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Tangled - Rapunzel's Kingdom - Customization (Terrain).bin` → `1.0/Power Discs/Terrain/Rapunzel's Kingdom.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Toy Story, Disney Parks - Astro Blasters Space Cruiser - Toy (Vehicle).bin` → `1.0/Power Discs/Vehicle/Astro Blasters Space Cruiser.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Up - Carl Fredricksen's Cane - Toy (Weapon).bin` → `1.0/Power Discs/Toy/Carl Fredricksen's Cane.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Wreck-It Ralph - Fix-It Felix's Repair Power - Ability.bin` → `1.0/Power Discs/Ability/Fix It Felix's Repair Power.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Wreck-It Ralph - King Candy's Dessert Toppings - Customization (Terrain).bin` → `1.0/Power Discs/Terrain/King Candy's Dessert Toppings.bin`
+- `Infinity 1.0/3) Power Discs/01) Series 1/Wreck-It Ralph - Sugar Rush Sky - Customization (Skydome).bin` → `1.0/Power Discs/Skydome/Sugar Rush Sky.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Alice in Wonderland - Flamingo Croquet Mallet - Toy (Weapon).bin` → `1.0/Power Discs/Vehicle/Flamingo Croquet Mallet.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Condorman - Condorman Glider - Toy (Glider).bin` → `1.0/Power Discs/Glider/Condor Wing Glider.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Frankenweenie - Electro-Charge - Ability.bin` → `1.0/Power Discs/Ability/Electro-Charge.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Frankenweenie - New Holland Sky - Customization (Skydome).bin` → `1.0/Power Discs/Skydome/New Holland Sky.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Frankenweenie - Victor's Experiments - Customization (Terrain).bin` → `1.0/Power Discs/Terrain/Victor's Experiments.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Frozen - Chill in the Air - Customization (Skydome).bin` → `1.0/Power Discs/Skydome/Chill in the Air.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Frozen - Frozen Flourish - Customization (Terrain).bin` → `1.0/Power Discs/Terrain/Frozen Flourish.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Lilo & Stitch - Hangin' Ten Stitch With Surfboard - Toy (Hoverboard).bin` → `1.0/Power Discs/Toy/Hangin' Ten Stitch With Surfboard.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Monsters, Inc. - Mike's New Car - Toy (Vehicle).bin` → `1.0/Power Discs/Vehicle/Mike's New Car.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Peter Pan, Disney Parks - Jolly Roger - Toy (Aircraft).bin` → `1.0/Power Discs/Aircraft/Captain Hook's Ship.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Phineas and Ferb - Dr. Doofenshmirtz's Damage-Inator! - Ability.bin` → `1.0/Power Discs/Ability/Dr. Doofenshmirtz's Damage-Inator!.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Tangled - Maximus - Toy (Mount).bin` → `1.0/Power Discs/Mount/Maximus.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/The Adventures of Ichabod and Mr. Toad - Headless Horseman's Horse - Toy (Mount).bin` → `1.0/Power Discs/Mount/Headless Horseman's Horse.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/The Muppets - Electric Mayhem Bus - Toy (Vehicle).bin` → `1.0/Power Discs/Vehicle/Electric Mayhem Bus.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/The Nightmare Before Christmas - Halloween Town Sky - Customization (Skydome).bin` → `1.0/Power Discs/Skydome/Halloween Town Sky.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/The Nightmare Before Christmas - Jack's Scary Decorations - Customization (Terrain).bin` → `1.0/Power Discs/Terrain/Jack's Scary Decorations.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Toy Story - Pizza Planet Delivery Truck - Toy (Vehicle).bin` → `1.0/Power Discs/Vehicle/Pizza Planet Delivery Truck.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Toy Story - Star Command Shield - Ability.bin` → `1.0/Power Discs/Ability/Star Command Shield.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/TRON - User Control Disc - Ability.bin` → `1.0/Power Discs/Ability/User Control.bin`
+- `Infinity 1.0/3) Power Discs/02) Series 2/Wreck-it Ralph - Ralph's Power of Destruction - Ability.bin` → `1.0/Power Discs/Ability/Ralph's Power of Destruction.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/101 Dalmatians - Cruella De Vil's Car - Toy (Vehicle).bin` → `1.0/Power Discs/Vehicle/Cruella De Vil's Car.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/Beauty and the Beast - Phillipe - Toy (Mount).bin` → `1.0/Power Discs/Mount/Phillipe.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/Bolt - Calico Helicopter - Toy (Aircraft).bin` → `1.0/Power Discs/Aircraft/Calico Helicopter.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/Brave - Angus - Toy (Mount).bin` → `1.0/Power Discs/Mount/Angus.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/Disney Parks - Disney Parks Parking Lot Tram - Toy (Vehicle).bin` → `1.0/Power Discs/Vehicle/Disney Parks Parking Lot Tram.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/Fantasia - Chernabog's Power - Ability.bin` → `1.0/Power Discs/Ability/Chernabog's Power.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/Fantasia - Mickey's Sorcerer Hat - Ability.bin` → `1.0/Power Discs/Ability/Mickey's Sorcerer Hat.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/Mulan - Dragon Firework Cannon - Toy (Weapon).bin` → `1.0/Power Discs/Toy/Dragon Firework Cannon.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/Phineas and Ferb - Danville Sky - Customization (Skydome).bin` → `1.0/Power Discs/Skydome/Danville Sky.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/Phineas and Ferb - Tri-State Area Terrain - Customization (Terrain).bin` → `1.0/Power Discs/Terrain/Tri-State Area Terrain.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/Tangled - Rapunzel's Healing - Ability.bin` → `1.0/Power Discs/Ability/Rapunzel's Healing.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/Tarzan - Tantor - Toy (Mount).bin` → `1.0/Power Discs/Mount/Tantor.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/The Incredibles - Violet's Force Field - Ability.bin` → `1.0/Power Discs/Ability/Violet's Force Field.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/Toy Story, Disney Parks - Toy Story Mania Blaster - Toy (Weapon).bin` → `1.0/Power Discs/Toy/Toy Story Mania Blaster.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/WALL-E - Buy N Large Atmosphere - Customization (Skydome).bin` → `1.0/Power Discs/Skydome/Buy N Large Atmosphere.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/WALL-E - WALL-E's Collection - Customization (Terrain).bin` → `1.0/Power Discs/Terrain/WALL-E's Collection.bin`
+- `Infinity 1.0/3) Power Discs/03) Series 3/WALL-E - WALL-E's Fire Extinguisher - Toy (Jetpack).bin` → `1.0/Power Discs/Toy/WALL-E's Fire Extinguisher.bin`
+- `Infinity 1.0/3) Power Discs/04) Toys R Us Exclusives/Cars - C.H.R.O.M.E. Damage Increaser - Ability.bin` → `1.0/Power Discs/Ability/C.H.R.O.M.E. Damage Increaser.bin`
+- `Infinity 1.0/3) Power Discs/04) Toys R Us Exclusives/DuckTales - Scrooge McDuck's Lucky Dime - Ability.bin` → `1.0/Power Discs/Ability/Scrooge McDuck's Lucky Dime.bin`
+- `Infinity 1.0/3) Power Discs/04) Toys R Us Exclusives/Lilo & Stitch - Hangin' Ten Stitch With Surfboard - Toy (Hoverboard - Toys R Us).bin` → `1.0/Power Discs/Toy/Hangin' Ten Stitch With Surfboard - Alt.bin`
+- `Infinity 1.0/3) Power Discs/04) Toys R Us Exclusives/Monsters, Inc. - Mike's New Car - Toy (Vehicle - Toys R Us).bin` → `1.0/Power Discs/Vehicle/Mike's New Car - Alt.bin`
+- `Infinity 1.0/3) Power Discs/04) Toys R Us Exclusives/The Sword in the Stone - Merlin's Summon - Ability.bin` → `1.0/Power Discs/Ability/Merlin's Summon.bin`
+- `Infinity 1.0/3) Power Discs/04) Toys R Us Exclusives/Toy Story - Emperor Zurg's Wrath - Ability.bin` → `1.0/Power Discs/Ability/Emperor Zurg's Wrath.bin`
+- `Infinity 1.0/3) Power Discs/04) Toys R Us Exclusives/TRON - On the Grid - Customization (Terrain).bin` → `1.0/Power Discs/Terrain/On the Grid.bin`
+- `Infinity 1.0/3) Power Discs/04) Toys R Us Exclusives/TRON - TRON Interface - Customization (Skydome).bin` → `1.0/Power Discs/Skydome/TRON Interface.bin`
+- `Infinity 1.0/3) Power Discs/04) Toys R Us Exclusives/TRON - User Control - Ability.bin` → `1.0/Power Discs/Ability/User Control - Alt.bin`
+- `Infinity 2.0/1) Characters/Aladdin - Aladdin.bin` → `2.0/Characters/Toy Box - Disney/Aladdin.bin`
+- `Infinity 2.0/1) Characters/Aladdin - Jasmine.bin` → `2.0/Characters/Toy Box - Disney/Jasmine.bin`
+- `Infinity 2.0/1) Characters/Big Hero 6 - Baymax.bin` → `2.0/Characters/Toy Box - Disney/Baymax.bin`
+- `Infinity 2.0/1) Characters/Big Hero 6 - Hiro Hamada.bin` → `2.0/Characters/Toy Box - Disney/Hiro.bin`
+- `Infinity 2.0/1) Characters/Brave - Merida.bin` → `2.0/Characters/Toy Box - Disney/Merida.bin`
+- `Infinity 2.0/1) Characters/Duck Universe - Donald Duck.bin` → `2.0/Characters/Toy Box - Disney/Donald Duck.bin`
+- `Infinity 2.0/1) Characters/Guardians of the Galaxy - Drax the Destroyer.bin` → `2.0/Characters/Guardians of the Galaxy/Drax.bin`
+- `Infinity 2.0/1) Characters/Guardians of the Galaxy - Gamora.bin` → `2.0/Characters/Guardians of the Galaxy/Gamora.bin`
+- `Infinity 2.0/1) Characters/Guardians of the Galaxy - Groot.bin` → `2.0/Characters/Guardians of the Galaxy/Groot.bin`
+- `Infinity 2.0/1) Characters/Guardians of the Galaxy - Rocket Raccoon.bin` → `2.0/Characters/Guardians of the Galaxy/Rocket Raccoon.bin`
+- `Infinity 2.0/1) Characters/Guardians of the Galaxy - Ronan the Accuser.bin` → `2.0/Characters/Guardians of the Galaxy/Ronan.bin`
+- `Infinity 2.0/1) Characters/Guardians of the Galaxy - Star-Lord.bin` → `2.0/Characters/Guardians of the Galaxy/Star-Lord.bin`
+- `Infinity 2.0/1) Characters/Guardians of the Galaxy - Yondu.bin` → `2.0/Characters/Guardians of the Galaxy/Yondu.bin`
+- `Infinity 2.0/1) Characters/Lilo & Stitch - Stitch.bin` → `2.0/Characters/Toy Box - Disney/Stitch.bin`
+- `Infinity 2.0/1) Characters/Maleficent - Maleficent.bin` → `2.0/Characters/Toy Box - Disney/Maleficent.bin`
+- `Infinity 2.0/1) Characters/The Avengers - Black Widow.bin` → `2.0/Characters/Avengers/Black Widow.bin`
+- `Infinity 2.0/1) Characters/The Avengers - Captain America.bin` → `2.0/Characters/Avengers/Captain America.bin`
+- `Infinity 2.0/1) Characters/The Avengers - Falcon.bin` → `2.0/Characters/Avengers/Falcon.bin`
+- `Infinity 2.0/1) Characters/The Avengers - Hawkeye.bin` → `2.0/Characters/Avengers/Hawkeye.bin`
+- `Infinity 2.0/1) Characters/The Avengers - Hulk.bin` → `2.0/Characters/Avengers/Hulk.bin`
+- `Infinity 2.0/1) Characters/The Avengers - Iron Man.bin` → `2.0/Characters/Avengers/Iron Man.bin`
+- `Infinity 2.0/1) Characters/The Avengers - Loki.bin` → `2.0/Characters/Avengers/Loki.bin`
+- `Infinity 2.0/1) Characters/The Avengers - Thor.bin` → `2.0/Characters/Avengers/Thor.bin`
+- `Infinity 2.0/1) Characters/Tinker Bell - Tinker Bell.bin` → `2.0/Characters/Toy Box - Disney/Tinker Bell.bin`
+- `Infinity 2.0/1) Characters/Ultimate Spider-Man - Black Suit Spider-Man.bin` → `2.0/Characters/Spider-Man/Black Suit Spider-Man.bin`
+- `Infinity 2.0/1) Characters/Ultimate Spider-Man - Green Goblin.bin` → `2.0/Characters/Spider-Man/Green Goblin.bin`
+- `Infinity 2.0/1) Characters/Ultimate Spider-Man - Iron Fist.bin` → `2.0/Characters/Spider-Man/Iron Fist.bin`
+- `Infinity 2.0/1) Characters/Ultimate Spider-Man - Nick Fury.bin` → `2.0/Characters/Spider-Man/Nick Fury.bin`
+- `Infinity 2.0/1) Characters/Ultimate Spider-Man - Nova.bin` → `2.0/Characters/Spider-Man/Nova.bin`
+- `Infinity 2.0/1) Characters/Ultimate Spider-Man - Spider-Man.bin` → `2.0/Characters/Spider-Man/Spider-Man.bin`
+- `Infinity 2.0/1) Characters/Ultimate Spider-Man - Venom.bin` → `2.0/Characters/Spider-Man/Venom.bin`
+- `Infinity 2.0/2) Play Sets/Marvel's Guardians of the Galaxy Play Set.bin` → `2.0/Play Sets/Guardians of the Galaxy.bin`
+- `Infinity 2.0/2) Play Sets/Marvel's Spider-Man Play Set (included in PS Vita starter pack).bin` → `2.0/Play Sets/Spider-Man Play Set.bin`
+- `Infinity 2.0/2) Play Sets/Marvel's The Avengers Play Set (included in starter pack).bin` → `2.0/Play Sets/Avengers.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Devil Dinosaur, Marvel Comics - Dinosaur World - Customization (Terrain).bin` → `2.0/Power Discs/Terrain/Dinosaur World.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Devil Dinosaur, Marvel Comics - Forgotten Skies - Customization (Skydome).bin` → `2.0/Power Discs/Skydome/Forgotten Skies.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Ghost Rider, Marvel Comics - Ghost Rider's Chain Whip - Toy (Weapon).bin` → `2.0/Power Discs/Toy/Ghost Rider's Chain Whip.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel Comics - Ant-Man - Ability (Team Up).bin` → `2.0/Power Discs/Team Up/Ant-Man - Team Up.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel Comics - Cloak of Levitation - Toy (Glider).bin` → `2.0/Power Discs/Glider/Cloak of Levitation.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel Comics - Gamma Rays - Ability (Costume).bin` → `2.0/Power Discs/Costume/Gamma Rays.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel Comics - Sorcerer Supreme - Ability (Event).bin` → `2.0/Power Discs/Ability/Sorcerer Supreme.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel Comics - World War Hulk - Customization (Terrain).bin` → `2.0/Power Discs/Terrain/World War Hulk.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel Comics - World War Hulk Sky - Customization (Skydome).bin` → `2.0/Power Discs/Skydome/World War Hulk Sky.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's Guardians of the Galaxy, Marvel Comics - Groot's Roots - Customization (Terrain).bin` → `2.0/Power Discs/Terrain/Groot's Roots.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's Guardians of the Galaxy, Marvel Comics - Groot's View - Customization (Skydome).bin` → `2.0/Power Discs/Skydome/Groot's View.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's Guardians of the Galaxy, Marvel Comics - Space Armor - Ability (Costume).bin` → `2.0/Power Discs/Costume/Space Armor.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's Guardians of the Galaxy, Marvel Comics - Star-Lord's Galaxy - Customization (Terrain).bin` → `2.0/Power Discs/Terrain/Star-Lord's Galaxy.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's Guardians of the Galaxy, Marvel Comics - The Rip - Customization (Skydome).bin` → `2.0/Power Discs/Skydome/The Rip.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's Guardians of the Galaxy, Marvel Comics - Yondu - Ability (Team Up).bin` → `2.0/Power Discs/Team Up/Yondu - Team Up.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - Black Panther's Vibranium Knives - Toy (Weapon).bin` → `2.0/Power Discs/Toy/Black Panther's Vibranium Knives.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - Falcon's Wings - Toy (Glider).bin` → `2.0/Power Discs/Glider/Falcon's Wings.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - Hydra Motorcycle - Toy (Motorcycle).bin` → `2.0/Power Discs/Vehicle/Hydra Motorcycle.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - Infinity Gauntlet - Ability (Event).bin` → `2.0/Power Discs/Ability/Infinity Gauntlet.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - Iron Patriot - Ability (Team Up).bin` → `2.0/Power Discs/Team Up/Iron Patriot.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - Lola - Toy (Vehicle).bin` → `2.0/Power Discs/Vehicle/Lola.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - Odin's Horse - Toy (Mount).bin` → `2.0/Power Discs/Mount/Odin's Horse.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - S.H.I.E.L.D. Containment Truck - Toy (Vehicle).bin` → `2.0/Power Discs/Vehicle/S.H.I.E.L.D. Containment Truck.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - S.H.I.E.L.D. Hellicarrier Strike - Ability (Event).bin` → `2.0/Power Discs/Ability/S.H.I.E.L.D. Hellicarrier Strike.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - Sentinel of Liberty - Ability (Costume).bin` → `2.0/Power Discs/Costume/Sentinel of Liberty.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - Stark Arc Reactor - Ability (Costume).bin` → `2.0/Power Discs/Costume/Stark Arc Reactor.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - Stark Tech - Customization (Terrain).bin` → `2.0/Power Discs/Terrain/Stark Tech.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - The Avenjet - Toy (Aircraft).bin` → `2.0/Power Discs/Aircraft/The Avenjet.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - View from the Suit - Customization (Skydome).bin` → `2.0/Power Discs/Skydome/View from the Suit.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Marvel's The Avengers, Marvel Comics - Winter Soldier - Ability (Team Up).bin` → `2.0/Power Discs/Team Up/Winter Soldier.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Spider-Man Comics, Marvel Comics - Alien Symbiote - Ability (Costume).bin` → `2.0/Power Discs/Costume/Alien Symbiote.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Spider-Man Comics, Marvel Comics - Jack-O-Lantern's Glider - Toy (Glider).bin` → `2.0/Power Discs/Aircraft/Jack-O-Lantern's Glider.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Spider-Man Comics, Marvel Comics - Spider Sky - Customization (Skydome).bin` → `2.0/Power Discs/Skydome/Spider Sky.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Spider-Man Comics, Marvel Comics - Spider-Buggy - Toy (Vehicle).bin` → `2.0/Power Discs/Vehicle/Spider-Buggy.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Spider-Man Comics, Marvel Comics - Spider-Copter - Toy (Aircraft).bin` → `2.0/Power Discs/Aircraft/Spider-Copter.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Spider-Man Comics, Marvel Comics - Spider-Cycle - Toy (Motorcycle).bin` → `2.0/Power Discs/Vehicle/Spider-Cycle.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Spider-Man Comics, Marvel Comics - Spider-Glider - Toy (Glider).bin` → `2.0/Power Discs/Glider/Spider-Glider.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Spider-Man Comics, Marvel Comics - Spidey's Streets - Customization (Terrain).bin` → `2.0/Power Discs/Terrain/Spidey's Streets.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Spider-Man Comics, Marvel Comics - The Immortal Iron Fist - Ability (Costume).bin` → `2.0/Power Discs/Costume/The Immortal Iron Fist.bin`
+- `Infinity 2.0/3) Power Discs/01) Wave 1 (Marvel Super Heroes)/Spider-Man Comics, Marvel Comics - White Tiger - Ability (Team Up).bin` → `2.0/Power Discs/Team Up/White Tiger.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Aladdin - Aladdin's Magic Carpet - Toy (Aircraft).bin` → `2.0/Power Discs/Aircraft/Aladdin's Magic Carpet.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Aladdin - Rags To Riches - Ability (Costume).bin` → `2.0/Power Discs/Costume/Rags To Riches.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Alice in Wonderland  Disney Parks - Alice in Wonderland's Caterpillar - Toy (Vehicle).bin` → `2.0/Power Discs/Vehicle/Alice in Wonderland's Caterpillar.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Bedknobs and Broomsticks - Eglantine's Motorcycle - Toy (Vehicle).bin` → `2.0/Power Discs/Vehicle/Eglantine's Motorcycle.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Big Hero 6 - Honey Lemon's Ice Capsules - Toy (Weapon).bin` → `2.0/Power Discs/Toy/Honey Lemon's Ice Capsules.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Disney Parks - A Small World - Customization (Terrain).bin` → `2.0/Power Discs/Terrain/A Small World.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Disney Parks - Fantasyland Carousel Horse - Toy (Vehicle).bin` → `2.0/Power Discs/Vehicle/Fantasyland Carousel Horse.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Disney Parks - Main Street Electrical Parade Float - Toy (Vehicle).bin` → `2.0/Power Discs/Vehicle/Main Street Electrical Parade Float.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Disney Parks - Skies of the World - Customization (Skydome).bin` → `2.0/Power Discs/Skydome/Skies of the World.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Disney's Darkwing Duck - Darkwing Duck's Grappling Gun - Toy (Weapon).bin` → `2.0/Power Discs/Toy/Darkwing Duck's Grappling Gun.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Disney's Darkwing Duck - Darkwing Duck's Ratcatcher - Toy (Vehicle).bin` → `2.0/Power Discs/Vehicle/Darkwing Duck's Ratcatcher.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Fantasia - Chernabog's Spirit Cyclone - Ability (Event).bin` → `2.0/Power Discs/Ability/Chernabog's Spirit Cyclone.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Gravity Falls - Gravity Falls Forest - Customization (Terrain).bin` → `2.0/Power Discs/Terrain/Gravity Falls Forest.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Gravity Falls - Gravity Falls Sky - Customization (Skydome).bin` → `2.0/Power Discs/Skydome/Gravity Falls Sky.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Gravity Falls - Mabel's Kittens for Fists - Toy (Weapon).bin` → `2.0/Power Discs/Toy/Mabel's Kittens for Fists.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Gus - Gus the Mule - Toy (Mount).bin` → `2.0/Power Discs/Mount/Gus the Mule.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Hercules - Zeus’ Thunderbolt - Ability (Event).bin` → `2.0/Power Discs/Ability/Zeus' Thunderbolt.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Mickey, Donald, and Goofy The Three Musketeers - All For One - Ability (Costume).bin` → `2.0/Power Discs/Costume/All For One.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Mulan - Mulan's Countryside - Customization (Terrain).bin` → `2.0/Power Discs/Terrain/Mulan's Countryside.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Mulan - The Middle Kingdom - Customization (Skydome).bin` → `2.0/Power Discs/Skydome/The Middle Kingdom.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Peter Pan - Neverland - Customization (Terrain).bin` → `2.0/Power Discs/Terrain/Neverland.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Peter Pan - Second Star to the Right - Customization (Skydome).bin` → `2.0/Power Discs/Skydome/Second Star to the Right .bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Phineas and Ferb - Aerial Area Rug - Toy (Aircraft).bin` → `2.0/Power Discs/Aircraft/Aerial Area Rug.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Pirates of the Caribbean - Cursed Pirate Gold - Ability (Costume).bin` → `2.0/Power Discs/Costume/Cursed Pirate Gold.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Sleeping Beauty - Maleficent’s Spell Cast - Ability (Event).bin` → `2.0/Power Discs/Ability/Maleficent's Spell Cast.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/The Adventures of Ichabod and Mr. Toad - Disney Parks - Mr Toad's Motorcar - Toy (Vehicle).bin` → `2.0/Power Discs/Vehicle/Mr. Toad's Motorcar.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/The Incredibles - Glory Days - Ability (Costume).bin` → `2.0/Power Discs/Costume/Glory Days.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/The Jungle Book - King Louie's Monkeys - Ability (Event).bin` → `2.0/Power Discs/Ability/King Louie's Monkeys.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/The Lion King - Simba's Pridelands - Customization (Terrain).bin` → `2.0/Power Discs/Terrain/Simba's Pridelands.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/The Lion King - The King's Domain - Customization (Skydome).bin` → `2.0/Power Discs/Skydome/The King's Domain.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/The Muppets - Le Maximum - Toy (Vehicle).bin` → `2.0/Power Discs/Vehicle/Le Maximum.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/The Muppets - Lew Zealand's Boomerang Fish - Toy (Weapon).bin` → `2.0/Power Discs/Toy/Lew Zealand's Boomerang Fish.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/The Muppets - USS Swinetrek - Toy (Aircraft).bin` → `2.0/Power Discs/Aircraft/USS Swinetrek.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/The Nightmare Before Christmas - Jack Skellington's Reindeer - Toy (Mount).bin` → `2.0/Power Discs/Mount/Jack Skellington's Reindeer.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/The Nightmare Before Christmas - Sandy Claws Surprise - Ability (Costume).bin` → `2.0/Power Discs/Costume/Sandy Claws Surprise.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/The Rescuers - Medusa's Swamp Mobile - Toy (Vehicle).bin` → `2.0/Power Discs/Vehicle/Medusa's Swamp Mobile.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Treasure Planet - Jim Hawkins' Solar Board - Toy (Hoverboard).bin` → `2.0/Power Discs/Toy/Jim Hawkins' Solar Board.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Wreck-It Ralph - Calhoun’s Command - Customization (Terrain).bin` → `2.0/Power Discs/Terrain/Calhoun's Command.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Wreck-It Ralph - CyBug Swarm - Customization (Skydome).bin` → `2.0/Power Discs/Skydome/CyBug Swarm.bin`
+- `Infinity 2.0/3) Power Discs/02) Wave 2 (Disney Originals)/Wreck-It-Ralph - Sergeant Calhoun's Blaster - Toy (Weapon).bin` → `2.0/Power Discs/Toy/Sergeant Calhoun's Blaster.bin`
+- `Infinity 2.0/3) Power Discs/03) Wave 3/Aladdin - Jasmine's Palace View - Customization (Skydome).bin` → `2.0/Power Discs/Skydome/Jasmine's Palace View.bin`
+- `Infinity 2.0/3) Power Discs/03) Wave 3/Aladdin - The Sands of Agrabah - Customization (Terrain).bin` → `2.0/Power Discs/Terrain/The Sands of Agrabah.bin`
+- `Infinity 2.0/3) Power Discs/03) Wave 3/Marvel Comics - Capt. Marvel - Ability (Team Up).bin` → `2.0/Power Discs/Team Up/Captain Marvel.bin`
+- `Infinity 2.0/3) Power Discs/03) Wave 3/Marvel's The Avengers, Marvel Comics - Ultimate Falcon - Ability (Costume).bin` → `2.0/Power Discs/Costume/Ultimate Falcon.bin`
+- `Infinity 2.0/3) Power Discs/03) Wave 3/TRON - Light Cycle - Toy (Vehicle).bin` → `2.0/Power Discs/Vehicle/Light Cycle.bin`
+- `Infinity 2.0/3) Power Discs/03) Wave 3/TRON - Light Jet - Toy (Aircraft).bin` → `2.0/Power Discs/Aircraft/Light Jet.bin`
+- `Infinity 2.0/4) Toy Box Game/Brave - Brave Forest Siege.bin` → `2.0/Play Sets/Brave Forest Siege.bin`
+- `Infinity 2.0/4) Toy Box Game/Guardians of the Galaxy - Escape from the Kyln.bin` → `2.0/Play Sets/Escape from the Kyln.bin`
+- `Infinity 2.0/4) Toy Box Game/Lilo & Stitch - Stitch's Tropical Rescue.bin` → `2.0/Play Sets/Stitch's Tropical Rescue.bin`
+- `Infinity 2.0/4) Toy Box Game/Marvel's The Avengers - Assault on Asgard.bin` → `2.0/Play Sets/Assault on Asgard.bin`
+- `Infinity 3.0/1) Characters/Alice Through the Looking Glass - Alice Kingsleigh.bin` → `3.0/Characters/Toy Box - Disney/Alice.bin`
+- `Infinity 3.0/1) Characters/Alice Through the Looking Glass - Mad Hatter.bin` → `3.0/Characters/Toy Box - Disney/Mad Hatter.bin`
+- `Infinity 3.0/1) Characters/Alice Through the Looking Glass - Time.bin` → `3.0/Characters/Toy Box - Disney/Time.bin`
+- `Infinity 3.0/1) Characters/Avengers Age of Ultron - Hulkbuster Iron Man.bin` → `3.0/Characters/Toy Boy - Marvel/Hulkbuster.bin`
+- `Infinity 3.0/1) Characters/Avengers Age of Ultron - Ultron.bin` → `3.0/Characters/Toy Boy - Marvel/Ultron.bin`
+- `Infinity 3.0/1) Characters/Captain America Civil War - Ant-Man.bin` → `3.0/Characters/Toy Boy - Marvel/Ant-Man.bin`
+- `Infinity 3.0/1) Characters/Captain America Civil War - Black Panther.bin` → `3.0/Characters/Toy Boy - Marvel/Black Panther.bin`
+- `Infinity 3.0/1) Characters/Captain America Civil War - Captain America - The First Avenger.bin` → `3.0/Characters/Toy Boy - Marvel/Captain America - The First Avenger.bin`
+- `Infinity 3.0/1) Characters/Captain America Civil War - Vision.bin` → `3.0/Characters/Toy Boy - Marvel/Vision.bin`
+- `Infinity 3.0/1) Characters/Finding Dory - Dory.bin` → `3.0/Characters/Finding Dory/Dory.bin`
+- `Infinity 3.0/1) Characters/Finding Dory - Nemo.bin` → `3.0/Characters/Finding Dory/Nemo.bin`
+- `Infinity 3.0/1) Characters/Frozen - Olaf.bin` → `3.0/Characters/Toy Box - Disney/Olaf.bin`
+- `Infinity 3.0/1) Characters/Inside Out - Anger.bin` → `3.0/Characters/Inside Out/Anger.bin`
+- `Infinity 3.0/1) Characters/Inside Out - Disgust.bin` → `3.0/Characters/Inside Out/Disgust.bin`
+- `Infinity 3.0/1) Characters/Inside Out - Fear.bin` → `3.0/Characters/Inside Out/Fear.bin`
+- `Infinity 3.0/1) Characters/Inside Out - Joy.bin` → `3.0/Characters/Inside Out/Joy.bin`
+- `Infinity 3.0/1) Characters/Inside Out - Sadness.bin` → `3.0/Characters/Inside Out/Sadness.bin`
+- `Infinity 3.0/1) Characters/Mouse Universe - Mickey Mouse.bin` → `3.0/Characters/Toy Box - Disney/Mickey Mouse.bin`
+- `Infinity 3.0/1) Characters/Mouse Universe - Minnie Mouse.bin` → `3.0/Characters/Toy Box - Disney/Minnie Mouse.bin`
+- `Infinity 3.0/1) Characters/Mulan - Mulan.bin` → `3.0/Characters/Toy Box - Disney/Mulan.bin`
+- `Infinity 3.0/1) Characters/Peter Pan - Peter Pan.bin` → `3.0/Characters/Unreleased/Peter Pan.bin`
+- `Infinity 3.0/1) Characters/Star Wars - Boba Fett.bin` → `3.0/Characters/Rise Against the Empire/Boba Fett.bin`
+- `Infinity 3.0/1) Characters/Star Wars - Chewbacca.bin` → `3.0/Characters/Rise Against the Empire/Chewbacca.bin`
+- `Infinity 3.0/1) Characters/Star Wars - Darth Maul.bin` → `3.0/Characters/Twilight of the Republic/Darth Maul.bin`
+- `Infinity 3.0/1) Characters/Star Wars - Darth Vader (Light FX).bin` → `3.0/Characters/Rise Against the Empire/Darth Vader - Light FX.bin`
+- `Infinity 3.0/1) Characters/Star Wars - Darth Vader.bin` → `3.0/Characters/Rise Against the Empire/Darth Vader.bin`
+- `Infinity 3.0/1) Characters/Star Wars - Han Solo.bin` → `3.0/Characters/Rise Against the Empire/Han Solo.bin`
+- `Infinity 3.0/1) Characters/Star Wars - Leia Organa.bin` → `3.0/Characters/Rise Against the Empire/Princess Leia.bin`
+- `Infinity 3.0/1) Characters/Star Wars - Luke Skywalker (Light FX).bin` → `3.0/Characters/Rise Against the Empire/Luke - Light FX.bin`
+- `Infinity 3.0/1) Characters/Star Wars - Luke Skywalker.bin` → `3.0/Characters/Rise Against the Empire/Luke.bin`
+- `Infinity 3.0/1) Characters/Star Wars Rebels - Ezra Bridger.bin` → `3.0/Characters/Toy Box - Star Wars/Ezra.bin`
+- `Infinity 3.0/1) Characters/Star Wars Rebels - Kanan Jarrus (Light FX).bin` → `3.0/Characters/Toy Box - Star Wars/Kanan - Light FX.bin`
+- `Infinity 3.0/1) Characters/Star Wars Rebels - Kanan Jarrus.bin` → `3.0/Characters/Toy Box - Star Wars/Kanan.bin`
+- `Infinity 3.0/1) Characters/Star Wars Rebels - Sabine Wren.bin` → `3.0/Characters/Toy Box - Star Wars/Sabine.bin`
+- `Infinity 3.0/1) Characters/Star Wars Rebels - Zeb Orrelios.bin` → `3.0/Characters/Toy Box - Star Wars/Zeb.bin`
+- `Infinity 3.0/1) Characters/Star Wars The Clone Wars - Ahsoka Tano.bin` → `3.0/Characters/Twilight of the Republic/Ahsoka.bin`
+- `Infinity 3.0/1) Characters/Star Wars The Clone Wars - Anakin Skywalker (Light FX).bin` → `3.0/Characters/Twilight of the Republic/Anakin Skywalker - Light FX.bin`
+- `Infinity 3.0/1) Characters/Star Wars The Clone Wars - Anakin Skywalker.bin` → `3.0/Characters/Twilight of the Republic/Anakin Skywalker.bin`
+- `Infinity 3.0/1) Characters/Star Wars The Clone Wars - Obi-Wan Kenobi (Light FX).bin` → `3.0/Characters/Twilight of the Republic/Obi-Wan - Light FX.bin`
+- `Infinity 3.0/1) Characters/Star Wars The Clone Wars - Obi-Wan Kenobi.bin` → `3.0/Characters/Twilight of the Republic/Obi-Wan.bin`
+- `Infinity 3.0/1) Characters/Star Wars The Clone Wars - Yoda (Light FX).bin` → `3.0/Characters/Twilight of the Republic/Yoda - Light FX.bin`
+- `Infinity 3.0/1) Characters/Star Wars The Clone Wars - Yoda.bin` → `3.0/Characters/Twilight of the Republic/Yoda.bin`
+- `Infinity 3.0/1) Characters/Star Wars The Force Awakens - Finn.bin` → `3.0/Characters/The Force Awakens/Finn.bin`
+- `Infinity 3.0/1) Characters/Star Wars The Force Awakens - Kylo Ren (Light FX).bin` → `3.0/Characters/The Force Awakens/Kylo Ren - Light FX.bin`
+- `Infinity 3.0/1) Characters/Star Wars The Force Awakens - Kylo Ren.bin` → `3.0/Characters/The Force Awakens/Kylo Ren.bin`
+- `Infinity 3.0/1) Characters/Star Wars The Force Awakens - Poe Dameron.bin` → `3.0/Characters/The Force Awakens/Poe Dameron.bin`
+- `Infinity 3.0/1) Characters/Star Wars The Force Awakens - Rey.bin` → `3.0/Characters/The Force Awakens/Rey.bin`
+- `Infinity 3.0/1) Characters/The Good Dinosaur - Spot.bin` → `3.0/Characters/Toy Box - Disney/Spot.bin`
+- `Infinity 3.0/1) Characters/The Jungle Book - Baloo.bin` → `3.0/Characters/Toy Box - Disney/Baloo.bin`
+- `Infinity 3.0/1) Characters/Tron Legacy - Quorra.bin` → `3.0/Characters/Toy Box - Disney/Quorra.bin`
+- `Infinity 3.0/1) Characters/Tron Legacy - Sam Flynn.bin` → `3.0/Characters/Toy Box - Disney/Sam Flynn.bin`
+- `Infinity 3.0/1) Characters/Zootopia - Judy Hopps.bin` → `3.0/Characters/Toy Box - Disney/Judy Hopps.bin`
+- `Infinity 3.0/1) Characters/Zootopia - Nick Wilde.bin` → `3.0/Characters/Toy Box - Disney/Nick Wilde.bin`
+- `Infinity 3.0/2) Play Sets/Finding Dory Play Set.bin` → `3.0/Play Sets/Finding Dory.bin`
+- `Infinity 3.0/2) Play Sets/Inside Out Play Set.bin` → `3.0/Play Sets/Inside Out.bin`
+- `Infinity 3.0/2) Play Sets/Marvel Battlegrounds Play Set.bin` → `3.0/Play Sets/Marvel Battlegrounds.bin`
+- `Infinity 3.0/2) Play Sets/Star Wars Rise Against the Empire Play Set.bin` → `3.0/Play Sets/Rise Against the Empire.bin`
+- `Infinity 3.0/2) Play Sets/Star Wars The Force Awakens Play Set.bin` → `3.0/Play Sets/The Force Awakens.bin`
+- `Infinity 3.0/2) Play Sets/Star Wars Twilight of the Republic Play Set (included in starter pack).bin` → `3.0/Play Sets/Twilight of the Republic.bin`
+- `Infinity 3.0/3) Power Discs/01) Launch/Star Wars - Forest of Felucia - Customization (Terrain).bin` → `3.0/Power Discs/Terrain/Forest of Felucia.bin`
+- `Infinity 3.0/3) Power Discs/01) Launch/Star Wars - Galactic Team-Up Mace Windu  - Ability (Team-Up).bin` → `3.0/Power Discs/Team Up/Mace Windu.bin`
+- `Infinity 3.0/3) Power Discs/01) Launch/Star Wars - General Grievous' Wheel Bike - Toy (Vehicle).bin` → `3.0/Power Discs/Vehicle/General Grievous' Wheel Bike.bin`
+- `Infinity 3.0/3) Power Discs/01) Launch/Star Wars - Princess Leia Boushh Disguise - Ability (Costume Change).bin` → `3.0/Power Discs/Costume/Princess Leia Boushh Disguise.bin`
+- `Infinity 3.0/3) Power Discs/01) Launch/Star Wars - Rebel Alliance Flight Suit - Ability (Costume Change).bin` → `3.0/Power Discs/Costume/Luke's Rebel Alliance Flight Suit Costume.bin`
+- `Infinity 3.0/3) Power Discs/01) Launch/Star Wars - Skies over Felucia - Customization (Skydome).bin` → `3.0/Power Discs/Skydome/Skies over Felucia.bin`
+- `Infinity 3.0/3) Power Discs/01) Launch/Star Wars - Slave I - Toy (Aircraft).bin` → `3.0/Power Discs/Aircraft/Slave I.bin`
+- `Infinity 3.0/3) Power Discs/01) Launch/Star Wars - Y-Wing Starfighter - Toy (Aircraft).bin` → `3.0/Power Discs/Aircraft/Y-Wing Starfighter.bin`
+- `Infinity 3.0/3) Power Discs/01) Launch/Tomorrowland - Retro Ray Gun - Toy (Weapon).bin` → `3.0/Power Discs/Toy/Retro Ray Gun.bin`
+- `Infinity 3.0/3) Power Discs/01) Launch/Tomorrowland - Tomorrowland Futurescape - Customization (Terrain).bin` → `3.0/Power Discs/Terrain/Tomorrowland Futurescape.bin`
+- `Infinity 3.0/3) Power Discs/01) Launch/Tomorrowland - Tomorrowland Stratosphere - Customization (Skydome).bin` → `3.0/Power Discs/Skydome/Tomorrowland Stratosphere.bin`
+- `Infinity 3.0/3) Power Discs/01) Launch/Tomorrowland - Tomorrowland Time Bomb - Ability (Event).bin` → `3.0/Power Discs/Ability/Tomorrowland Time Bomb.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/Marvel Comics - Cosmic Cube Blast - Ability (Event).bin` → `3.0/Power Discs/Ability/Cosmic Cube Blast.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/Marvel Comics - Darkhawk's Blast - Ability (Event).bin` → `3.0/Power Discs/Ability/Darkhawk's Blast.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/Marvel Comics - Ghost Rider's Motorcycle - Toy (Vehicle).bin` → `3.0/Power Discs/Vehicle/Ghost Rider's Motorcycle.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/Marvel Comics - Nova Corps Strike - Ability (Event).bin` → `3.0/Power Discs/Ability/Nova Corps Strike.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/Star Wars - Finn's Stormtrooper Costume - Ability (Costume Change).bin` → `3.0/Power Discs/Costume/Finn's Stormtrooper Costume.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/Star Wars - Poe's Resistance Jacket - Ability (Costume Change).bin` → `3.0/Power Discs/Costume/Poe's Resistance Jacket.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/Star Wars - Quad Jumper - Toy (Aircraft).bin` → `3.0/Power Discs/Aircraft/Quad Jumper.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/Star Wars - Resistance Tactical Strike - Ability (Event).bin` → `3.0/Power Discs/Ability/Resistance Tactical Strike.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/The Good Dinosaur - Arlo - Toy (Mount).bin` → `3.0/Power Discs/Mount/Arlo.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/The Good Dinosaur - Butch - Toy (Mount).bin` → `3.0/Power Discs/Mount/Butch.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/The Good Dinosaur - Nash - Toy (Mount).bin` → `3.0/Power Discs/Mount/Nash.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/The Good Dinosaur - Ramsey - Toy (Mount).bin` → `3.0/Power Discs/Mount/Ramsey.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/Zootopia - Meter Maid Judy - Ability (Costume Change).bin` → `3.0/Power Discs/Costume/Meter Maid Judy.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/Zootopia - Officer Wilde - Ability (Costume Change).bin` → `3.0/Power Discs/Costume/Officer Wilde.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/Zootopia - Sahara Square Sands - Customization (Terrain).bin` → `3.0/Power Discs/Terrain/Sahara Square Sands.bin`
+- `Infinity 3.0/3) Power Discs/02) Post-Launch/Zootopia - Stars Over Sahara Square - Customization (Skydome).bin` → `3.0/Power Discs/Skydome/Stars Over Sahara Square.bin`
+- `Infinity 3.0/3) Power Discs/03) Others/Kingdom Hearts - King Mickey - Ability (Costume Change).bin` → `3.0/Power Discs/Costume/Kingdom Hearts Mickey Costume.bin`
+- `Infinity 3.0/4) Toy Box Game/Toy Box Speedway.bin` → `3.0/Play Sets/Toy Box Speedway.bin`
+- `Infinity 3.0/4) Toy Box Game/Toy Box Takeover.bin` → `3.0/Play Sets/Toy Box Takeover.bin`

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disney Infinity Keys Generator</title>
+    <meta name="description" content="This page can be used to generate keys for Disney Infinity figures using their 7-byte UID.">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Disney Infinity Keys Generator</h1>
+        <p>This page can be used to generate keys for Disney Infinity figures using their 7-byte UID.</p>
+    </section>
+	
+   <section>	
+	<ol>
+		<li>Type your card <strong>UID</strong> and click &quot;<strong>Generate</strong>&quot; button.</li>
+		<li>Download the &quot;<strong>UID_You_Have_Typed.keys</strong>&quot; file.</li>
+		<li>Go inside &quot;<strong>Mifare Windows Tool v1.6\keys</strong>&quot; folder and place the <strong>.keys</strong> file there.</li>
+		<li>Inside &quot;<strong>MWT</strong>&quot; click &quot;<strong>READ TAG</strong>&quot; with the same tag placed on the <strong>ACR122U</strong> reader</li>
+		<li>Select the <strong>new keys</strong> instead of &quot;<strong>std.keys</strong>&quot; and click on &quot;<strong>Start Decode &amp; Read tag</strong>&quot;.</li>
+		<li>Wait a moment. If you receive any <strong>warnings</strong>, <strong>unplug and plug the USB cable</strong> of the reader back in, then try again.</li>
+		<li>When done, you should see a <strong>popup</strong> window.</li>
+		<li><strong>That&#39;s it</strong>, your already written tag was <strong>decrypted</strong> successfully.</li>
+		<li>At the bottom of this window, click on &quot;<strong>Save Dump As</strong>&quot; if you want to save this dump.</li>
+	</ol>
+    </section>
+	
+    <section>
+        <form id="form">
+            <label for="nuid-input"><strong>UID: </strong></label>
+            <input id="nuid-input" type="text" placeholder="00000000000000" minlength="14" maxlength="14" required/>
+            <input type="submit" value="Generate" id="generate-btn"/>
+        </form>
+    </section>
+    <section>
+        <pre id="key-list"></pre>
+    </section>
+	<button id="download-btn" style="display: none;">Download</button>
+</body>
+</html>
