@@ -1,6 +1,6 @@
 # Extra Codes
 
-Last Updated: **April 18, 2025**
+Last Updated: **June 24, 2025**
 
 ---
 
@@ -18,3 +18,7 @@ Last Updated: **April 18, 2025**
 | Spider-Gwen (spd_spidergwen) | 1000316 |
 | Dr. Strange (avg_drstrange) | 1000315 |
 | Zurg (av_zurg) | 1000317  |
+| Moana (moa_moana) | 1000322  |
+| Maui (moa_maui) | 1000321  |
+| Moana Play Set | 2000301  |
+| Clu (trn_clu) | 1000152  |
