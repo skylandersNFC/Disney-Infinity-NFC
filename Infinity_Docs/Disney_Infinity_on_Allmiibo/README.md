@@ -28,8 +28,8 @@ There are **two simple ways** to update the firmware on your **Allmiibo** device
 
 ### Using a Computer :
 
-1. For Disney, to make them compatible we use a **slightly modified firmware**.
-- You can get the latest custom version here: **[Allmiibo Disney Firmware](firmware)**.
+1. For Disney, to make them compatible we use a firmware 2.13.0 or newer.
+- You can get the latest version here: **[https://github.com/solosky/pixl.js/releases](https://github.com/solosky/pixl.js/releases)**.
 2. Download the **appropriate** firmware (**LCD** or **OLED**) based on your device.
 3. **Extract** the downloaded ZIP file, and inside **you’ll find another archive** named "**pixjs_ota_vX.zip**". This is the file you'll need.
 4. Ensure that **Bluetooth** is **enabled** on your computer/laptop.
@@ -61,7 +61,7 @@ There are **two simple ways** to update the firmware on your **Allmiibo** device
 5. Check the "**File**" menu on the bottom left.
 - If you see a "**chameleon**" folder - **DELETE IT**. It will be recreated by the new custom firmware.
 6. Go to "**Firmware**" menu on the bottom right.
-7. You can get the latest custom firmware from here: **[Allmiibo Disney Firmware](firmware)**.
+7. You can get the latest firmware from here: **[https://github.com/solosky/pixl.js/releases](https://github.com/solosky/pixl.js/releases)**.
 - Download the **appropriate** firmware (**LCD** or **OLED**) based on your device.
 8. On "**(1) File**" select the correct firmware file which you have just downloaded.
 9. On "**(2) Device**" make sure your device is **connected** and **selected**.
