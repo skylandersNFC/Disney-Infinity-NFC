@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+ <head>
+  <meta charset="utf-8">
+ </head>
+ <body>
+    <canvas id='scale_1px' style='display:none;'></canvas>
+    <canvas id='scale' style='display:none;' onClick='hide("scale")'></canvas>
+    <div id='start_form'>
+	<form>
+	    <div>Size A in millimetres: <input id='sizeA' type=text value=190></div>
+	    <div>Coin size in millimetres: <input id='coinSize' type=text value=26></div>
+	    <input type=button value=Generate onClick='generate()'>
+	    <br><br>
+	</form>
+    <div>Example for A4, the size A is different for each printer model.</div>
+    <img src="../../../../images/sample.jpg">
+    </div>
+    <div id=images style='display:none;' >
+	<div id=info style='text-align: center;'><input type=button onClick='hide("info")' value="click on image to dissapears..."></div>
+    </div>
+ </body>
+<script>
+
+    var dpi = 300;
+    var mm_in = 25.4;
+    var c_width;
+    var mm_width;
+
+	const coins = ["covers/101 Dalmatians - Cruella De Vil's Car - Toy (Vehicle).png","covers/Aladdin - Abu the Elephant - Toy (Mount).png","covers/Alice in Wonderland - Alice's Wonderland - Customization (Terrain).png","covers/Alice in Wonderland - Flamingo Croquet Mallet - Toy (Weapon).png","covers/Alice in Wonderland - Tulgey Wood - Customization (Skydome).png","covers/Beauty and the Beast - Phillipe - Toy (Mount).png","covers/Bolt - Bolt's Super Strength - Ability.png","covers/Bolt - Calico Helicopter - Toy (Aircraft).png","covers/Brave - Angus - Toy (Mount).png","covers/Cars - C.H.R.O.M.E. Armor Shield - Ability.png","covers/Cars - C.H.R.O.M.E. Damage Increaser - Ability.png","covers/Cinderella - Cinderella's Coach - Toy (Vehicle).png","covers/Condorman - Condorman Glider - Toy (Glider).png","covers/Disney Parks - Disney Parks Parking Lot Tram - Toy (Vehicle).png","covers/DuckTales - Scrooge McDuck's Lucky Dime - Ability.png","covers/Dumbo, Disney Parks - Dumbo the Flying Elephant - Toy (Aircraft).png","covers/Fantasia - Chernabog's Power - Ability.png","covers/Fantasia - Mickey's Sorcerer Hat - Ability.png","covers/Finding Nemo - Marlin's Reef - Customization (Terrain).png","covers/Finding Nemo - Nemo's Seascape - Customization (Skydome).png","covers/Frankenweenie - Electro-Charge - Ability.png","covers/Frankenweenie - New Holland Sky - Customization (Skydome).png","covers/Frankenweenie - Victor's Experiments - Customization (Terrain).png","covers/Frozen - Chill in the Air - Customization (Skydome).png","covers/Frozen - Frozen Flourish - Customization (Terrain).png","covers/Lilo & Stitch - Hangin' Ten Stitch With Surfboard - Toy (Hoverboard - Toys R Us).png","covers/Lilo & Stitch - Hangin' Ten Stitch With Surfboard - Toy (Hoverboard).png","covers/Lilo & Stitch - Stitch's Blaster - Toy (Weapon).png","covers/Mickey Mouse Universe - Mickey's Car - Toy (Vehicle).png","covers/Monsters, Inc. - Mike's New Car - Toy (Vehicle - Toys R Us).png","covers/Monsters, Inc. - Mike's New Car - Toy (Vehicle).png","covers/Mulan - Dragon Firework Cannon - Toy (Weapon).png","covers/Mulan - Khan - Toy (Mount).png","covers/Peter Pan, Disney Parks - Jolly Roger - Toy (Aircraft).png","covers/Phineas and Ferb - Danville Sky - Customization (Skydome).png","covers/Phineas and Ferb - Dr. Doofenshmirtz's Damage-Inator! - Ability.png","covers/Phineas and Ferb - Tri-State Area Terrain - Customization (Terrain).png","covers/Pirates of the Caribbean - Pieces of Eight - Ability.png","covers/Tangled - Maximus - Toy (Mount).png","covers/Tangled - Rapunzel's Birthday Sky - Customization (Skydome).png","covers/Tangled - Rapunzel's Healing - Ability.png","covers/Tangled - Rapunzel's Kingdom - Customization (Terrain).png","covers/Tarzan - Tantor - Toy (Mount).png","covers/The Adventures of Ichabod and Mr. Toad - Headless Horseman's Horse - Toy (Mount).png","covers/The Incredibles - Violet's Force Field - Ability.png","covers/The Muppets - Electric Mayhem Bus - Toy (Vehicle).png","covers/The Nightmare Before Christmas - Halloween Town Sky - Customization (Skydome).png","covers/The Nightmare Before Christmas - Jack's Scary Decorations - Customization (Terrain).png","covers/The Sword in the Stone - Merlin's Summon - Ability.png","covers/Toy Story - Emperor Zurg's Wrath - Ability.png","covers/Toy Story - Pizza Planet Delivery Truck - Toy (Vehicle).png","covers/Toy Story - Star Command Shield - Ability.png","covers/Toy Story, Disney Parks - Astro Blasters Space Cruiser - Toy (Vehicle).png","covers/Toy Story, Disney Parks - Toy Story Mania Blaster - Toy (Weapon).png","covers/TRON - On the Grid - Customization (Terrain).png","covers/TRON - TRON Interface - Customization (Skydome).png","covers/TRON - User Control - Ability.png","covers/TRON - User Control Disc - Ability.png","covers/Up - Carl Fredricksen's Cane - Toy (Weapon).png","covers/WALL-E - Buy N Large Atmosphere - Customization (Skydome).png","covers/WALL-E - WALL-E's Collection - Customization (Terrain).png","covers/WALL-E - WALL-E's Fire Extinguisher - Toy (Jetpack).png","covers/Wreck-It Ralph - Fix-It Felix's Repair Power - Ability.png","covers/Wreck-It Ralph - King Candy's Dessert Toppings - Customization (Terrain).png","covers/Wreck-it Ralph - Ralph's Power of Destruction - Ability.png","covers/Wreck-It Ralph - Sugar Rush Sky - Customization (Skydome).png"];
+
+
+    function init_scale(width, dpi)
+    {
+	var canvas = document.getElementById("scale_1px");
+	var font_height = 8;
+	var c_height = 30;
+	var s_height = c_height / 2 - 1;
+
+	c_width = width / mm_in * dpi;
+	mm_width = width;
+
+	canvas.width = parseInt(c_width);
+	canvas.height = 1;
+
+	canvas = document.getElementById("scale");
+
+	canvas.width = parseInt(c_width);
+	canvas.height = c_height;
+
+	const ctx = canvas.getContext("2d");
+	
+	ctx.font = font_height + "px serif";
+	ctx.strokeStyle = 'black';
+	ctx.lineWidth = 2;
+
+	ctx.beginPath();
+	ctx.moveTo(canvas.width - 2, 0);
+	ctx.lineTo(canvas.width - 2, c_height);
+	ctx.stroke();
+	
+	for ( i = 0 ; i < width ; i++ )
+	{
+	    pos = i / width * c_width + 1;
+
+	    if ( i % 10 == 0 )
+	    {
+		ctx.fillText( i + " mm", pos + 4, c_height - s_height + font_height );
+		ctx.lineWidth = 2;
+		h = s_height;
+	    }
+	    else
+	    {
+		ctx.lineWidth = 1;
+		h = s_height / 2;
+	    }
+
+	    ctx.beginPath();
+	    ctx.moveTo(pos, c_height);
+	    ctx.lineTo(pos, c_height - h);
+	    ctx.stroke();
+	}
+
+	for ( i = 0 ; i < width / mm_in * 16; i++ )
+	{
+	    pos = i * mm_in / 16 / width * c_width + 1;
+	    h = 10;
+	    if ( i % 16 == 0 )
+	    {
+		ctx.lineWidth = 2;
+		h = s_height;
+	    }
+	    else
+	    {
+		if ( i % 8 == 0 )
+		{
+		    h = s_height * 3 / 4;
+		    ctx.lineWidth = 2;
+		}
+		else
+		{
+		    if ( i % 2 == 0 )
+			h = s_height * 3 / 5;
+		    else
+			h = s_height * 3 / 6;
+		}
+		ctx.lineWidth = 1;
+	    }
+	    ctx.beginPath();
+	    ctx.moveTo(pos, 0);
+	    ctx.lineTo(pos, h);
+	    ctx.stroke();
+	}
+
+	for ( i = 0 ; i < width / mm_in  ; i++ )
+	{
+	    pos = i * mm_in / width * c_width;
+	    ctx.fillText( i + " in", pos + 4, s_height);
+	}
+    }
+
+    function hide(id)
+    {
+	document.getElementById(id).style.display = "none";
+    }
+
+    function generate()
+    {
+	document.getElementById("scale").style.display = "inline";
+	document.getElementById("scale_1px").style.display = "inline";
+	document.getElementById("images").style.display = "inline";
+	init_scale(document.getElementById("sizeA").value, dpi);
+	hide("start_form");
+
+	coin_size = document.getElementById("coinSize").value;
+
+	var cs = parseInt(coin_size / mm_width * c_width);
+
+	imgs = document.getElementById("images");
+	for (let i=0; i < coins.length; i++)
+	{
+	    var img = document.createElement('img');
+            img.src = coins[i];
+
+	    
+	    img.style.height = cs + "px";
+	    img.style.width = cs + "px";
+	    img.id = 'im' + i;
+	    img.onclick = function(){hide('im' + i);}
+	    img.style.paddingRight = '2px';
+
+            imgs.appendChild(img);
+	}
+
+    }
+
+</script>
+</html>
