@@ -1,0 +1,22 @@
+#fileInput {
+    opacity: 0;
+    width: 0%;
+    display: none;
+}
+#generate-btn, #download-btn {
+    border: 2px solid #1a5276;
+    border-radius: 25px;
+    background: #5dade2;
+    color: #000;
+    padding: 6px 6px;
+    margin: 10px;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-family: sans-serif;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}

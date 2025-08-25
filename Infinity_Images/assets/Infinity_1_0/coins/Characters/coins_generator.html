@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+ <head>
+  <meta charset="utf-8">
+ </head>
+ <body>
+    <canvas id='scale_1px' style='display:none;'></canvas>
+    <canvas id='scale' style='display:none;' onClick='hide("scale")'></canvas>
+    <div id='start_form'>
+	<form>
+	    <div>Size A in millimetres: <input id='sizeA' type=text value=190></div>
+	    <div>Coin size in millimetres: <input id='coinSize' type=text value=26></div>
+	    <input type=button value=Generate onClick='generate()'>
+	    <br><br>
+	</form>
+    <div>Example for A4, the size A is different for each printer model.</div>
+    <img src="../../../../images/sample.jpg">
+    </div>
+    <div id=images style='display:none;' >
+	<div id=info style='text-align: center;'><input type=button onClick='hide("info")' value="click on image to dissapears..."></div>
+    </div>
+ </body>
+<script>
+
+    var dpi = 300;
+    var mm_in = 25.4;
+    var c_width;
+    var mm_width;
+
+	const coins = ["covers/Cars - Francesco Bernoulli.png","covers/Cars - Holley Shiftwell.png","covers/Cars - Lightning McQueen (Crystal).png","covers/Cars - Lightning McQueen.png","covers/Cars - Mater.png","covers/Fantasia - Sorcerer's Apprentice Mickey (Crystal).png","covers/Fantasia - Sorcerer's Apprentice Mickey.png","covers/Frozen - Anna.png","covers/Frozen - Elsa.png","covers/Monsters University - Mike Wazowski.png","covers/Monsters University - Randy.png","covers/Monsters University - Sulley (Crystal).png","covers/Monsters University - Sulley.png","covers/Phineas and Ferb - Agent P (Crystal).png","covers/Phineas and Ferb - Agent P.png","covers/Phineas and Ferb - Phineas Flynn.png","covers/Pirates of the Caribbean - Barbossa.png","covers/Pirates of the Caribbean - Davy Jones.png","covers/Pirates of the Caribbean - Jack Sparrow (Crystal).png","covers/Pirates of the Caribbean - Jack Sparrow.png","covers/Tangled - Rapunzel.png","covers/The Incredibles - Dash.png","covers/The Incredibles - Mr. Incredible (Crystal).png","covers/The Incredibles - Mr. Incredible.png","covers/The Incredibles - Mrs. Incredible.png","covers/The Incredibles - Syndrome.png","covers/The Incredibles - Violet.png","covers/The Lone Ranger - The Lone Ranger (Crystal).png","covers/The Lone Ranger - The Lone Ranger.png","covers/The Lone Ranger - Tonto.png","covers/The Nightmare Before Christmas - Jack Skellington.png","covers/Toy Story - Buzz Lightyear (Crystal).png","covers/Toy Story - Buzz Lightyear (Glowing).png","covers/Toy Story - Buzz Lightyear.png","covers/Toy Story - Jessie.png","covers/Toy Story - Woody.png","covers/Wreck-It Ralph - Vanellope von Schweetz.png","covers/Wreck-It Ralph - Wreck-It Ralph.png"];
+
+    function init_scale(width, dpi)
+    {
+	var canvas = document.getElementById("scale_1px");
+	var font_height = 8;
+	var c_height = 30;
+	var s_height = c_height / 2 - 1;
+
+	c_width = width / mm_in * dpi;
+	mm_width = width;
+
+	canvas.width = parseInt(c_width);
+	canvas.height = 1;
+
+	canvas = document.getElementById("scale");
+
+	canvas.width = parseInt(c_width);
+	canvas.height = c_height;
+
+	const ctx = canvas.getContext("2d");
+	
+	ctx.font = font_height + "px serif";
+	ctx.strokeStyle = 'black';
+	ctx.lineWidth = 2;
+
+	ctx.beginPath();
+	ctx.moveTo(canvas.width - 2, 0);
+	ctx.lineTo(canvas.width - 2, c_height);
+	ctx.stroke();
+	
+	for ( i = 0 ; i < width ; i++ )
+	{
+	    pos = i / width * c_width + 1;
+
+	    if ( i % 10 == 0 )
+	    {
+		ctx.fillText( i + " mm", pos + 4, c_height - s_height + font_height );
+		ctx.lineWidth = 2;
+		h = s_height;
+	    }
+	    else
+	    {
+		ctx.lineWidth = 1;
+		h = s_height / 2;
+	    }
+
+	    ctx.beginPath();
+	    ctx.moveTo(pos, c_height);
+	    ctx.lineTo(pos, c_height - h);
+	    ctx.stroke();
+	}
+
+	for ( i = 0 ; i < width / mm_in * 16; i++ )
+	{
+	    pos = i * mm_in / 16 / width * c_width + 1;
+	    h = 10;
+	    if ( i % 16 == 0 )
+	    {
+		ctx.lineWidth = 2;
+		h = s_height;
+	    }
+	    else
+	    {
+		if ( i % 8 == 0 )
+		{
+		    h = s_height * 3 / 4;
+		    ctx.lineWidth = 2;
+		}
+		else
+		{
+		    if ( i % 2 == 0 )
+			h = s_height * 3 / 5;
+		    else
+			h = s_height * 3 / 6;
+		}
+		ctx.lineWidth = 1;
+	    }
+	    ctx.beginPath();
+	    ctx.moveTo(pos, 0);
+	    ctx.lineTo(pos, h);
+	    ctx.stroke();
+	}
+
+	for ( i = 0 ; i < width / mm_in  ; i++ )
+	{
+	    pos = i * mm_in / width * c_width;
+	    ctx.fillText( i + " in", pos + 4, s_height);
+	}
+    }
+
+    function hide(id)
+    {
+	document.getElementById(id).style.display = "none";
+    }
+
+    function generate()
+    {
+	document.getElementById("scale").style.display = "inline";
+	document.getElementById("scale_1px").style.display = "inline";
+	document.getElementById("images").style.display = "inline";
+	init_scale(document.getElementById("sizeA").value, dpi);
+	hide("start_form");
+
+	coin_size = document.getElementById("coinSize").value;
+
+	var cs = parseInt(coin_size / mm_width * c_width);
+
+	imgs = document.getElementById("images");
+	for (let i=0; i < coins.length; i++)
+	{
+	    var img = document.createElement('img');
+            img.src = coins[i];
+
+	    
+	    img.style.height = cs + "px";
+	    img.style.width = cs + "px";
+	    img.id = 'im' + i;
+	    img.onclick = function(){hide('im' + i);}
+	    img.style.paddingRight = '2px';
+
+            imgs.appendChild(img);
+	}
+
+    }
+
+</script>
+</html>
