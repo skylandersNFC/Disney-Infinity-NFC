@@ -1,6 +1,6 @@
 # Extra Codes
 
-Last Updated: **June 24, 2025**
+Last Updated: **November 24, 2025**
 
 ---
 
@@ -22,3 +22,4 @@ Last Updated: **June 24, 2025**
 | Maui (moa_maui) | 1000321  |
 | Moana Play Set | 2000301  |
 | Clu (trn_clu) | 1000152  |
+| PlaysetZ/Rouge One Play Set | 2000302  |
