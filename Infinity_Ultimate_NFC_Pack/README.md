@@ -1,6 +1,6 @@
 # Infinity Ultimate NFC Pack
 
-<img src="https://raw.githubusercontent.com/skylandersNFC/Disney-Infinity-NFC/main/Infinity_Ultimate_NFC_Pack/Infinity-Ultimate-NFC-Pack.jpg" width="500" height="500">
+<img src="https://raw.githubusercontent.com/skylandersNFC/Disney-Infinity-NFC/main/Infinity_Ultimate_NFC_Pack/Infinity-Ultimate-NFC-Pack.jpg">
 
 ## Infinity Ultimate NFC Pack - V2
 
